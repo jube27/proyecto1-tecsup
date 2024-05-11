@@ -1,29 +1,72 @@
 *{
     margin:0;
     padding: 0;
-}
-
-
-body{
-    background-color: #0D1A2C;
-    height: 100vh;
-    border: solid orange;
-    text-align: center;
-    color: #fff;
-}
-
-div{
-    background-color: #15273F;
-    width: 400px;
-    height: 500px; border-radius: 20px;
-    margin: auto;
-    text-align: center;
-    padding-top: 30px;
     
 }
 
-img{
-    border: solid red;
-    border-radius: 20px;
-    width: 250px;
+body{
+    display: flex;
+    background-color:white;
+    
+    /*border: solid; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila1{
+    background-color: #415458;
+    display: flex; /* caja flexible */
+    border:solid; /* borde solido*/
+    border-style: outset; /* estilo de borde*/
+    justify-content: center;
+    align-items: center;
+    width: 400; /* ancho */
+    height: 300; 
+    border-radius:20px; 
+    font-family: "Times New Roman", Times, serif;   /* tipo de letra */
+    font-style: oblique; /* estilo de letra */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* sombreado para crear tarjetas similares al papel */
+    text-align: center;
+}
+
+.columna1 img{
+    width: 300px;
+    border-radius: 60%;
+    margin: 30px;
+    /*border: solid coral;*/
+}
+a{
+    color:rgb(216, 231, 231);
+    font-style: italic;
+}
+.columna2{
+    
+    width: 400px;
+    /* border: solid green;*/
+    margin: 30px;
+    padding: 20px;
+    text-align:center; 
+}
+
+
+.row1{
+    color:rgb(105, 206, 247); /* color de texto*/
+    text-shadow: 2px 2px 5px rgba(243, 175, 175, 0.352); /* efecto sombra en el texto*/
+}
+
+.row2{
+    color: white;
+    text-shadow: 2px 2px 4px #000000; /* efecto sombra en el texto*/
+}
+.row3{
+    display: flex;
+    border: solid #ff00ee; 
+    text-align: center;  
+}
+
+a img{
+    border: solid #ff00ee; 
+    text-align: center; 
+    width: 50px;  
 }
